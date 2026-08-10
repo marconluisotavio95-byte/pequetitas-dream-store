@@ -87,6 +87,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "pt_BR" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Pequetitas Moda Menina | Moda infantil em Lucas do Rio Verde" },
+      { name: "twitter:title", content: "Pequetitas Moda Menina | Moda infantil em Lucas do Rio Verde" },
+      { property: "og:description", content: "Loja de moda infantil feminina em Lucas do Rio Verde - MT. Vestidos, conjuntos, blusas e looks completos com qualidade e atendimento personalizado." },
+      { name: "twitter:description", content: "Loja de moda infantil feminina em Lucas do Rio Verde - MT. Vestidos, conjuntos, blusas e looks completos com qualidade e atendimento personalizado." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/460769bbfc0af0c7c026b464c3a1206c/id-preview-c03a8da6--e3c48ecb-3968-4c3c-a7a2-1bbf19b8a5b2.lovable.app-1786390489470.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/460769bbfc0af0c7c026b464c3a1206c/id-preview-c03a8da6--e3c48ecb-3968-4c3c-a7a2-1bbf19b8a5b2.lovable.app-1786390489470.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
